@@ -1,5 +1,7 @@
 import  slider_left_img from "../assets/slider-left-img.png"
-
+import service_img1 from "../assets/service-img1.png"
+import service_img2 from "../assets/service-img2.png"
+import service_img3 from "../assets/service-img3.png"
 function Home(){
     return(
         <div className="Home">
@@ -18,6 +20,43 @@ function Home(){
                 {/* slider-inner End */}
             </div>
             {/* slider-area End */}
+            {/* service-area */}
+            <div className="service-area">
+                {/* service-single */}
+                <div className="service-single">
+                    {/*  service-img*/}
+                    <div className="service-img">
+                        <img src={service_img1} alt="service_img1"/>
+                    </div>
+                    {/* service-img End */}
+                    <h2>Call service</h2>
+                    <p>Take The initative to call</p>
+                </div>
+                {/* service-single  End*/}
+                {/* service-single */}
+                <div className="service-single">
+                    {/*  service-img*/}
+                    <div className="service-img">
+                        <img src={service_img2} alt="service_img2"/>
+                    </div>
+                    {/* service-img End */}
+                    <h2>Active warning</h2>
+                    <p>Timely detection of accidents</p>
+                </div>
+                {/* service-single  End*/}
+                {/* service-single */}
+                <div className="service-single">
+                    {/*  service-img*/}
+                    <div className="service-img">
+                        <img src={service_img3} alt="service_img3"/>
+                    </div>
+                    {/* service-img End */}
+                    <h2>Care plan</h2>
+                    <p>The care content is pushed</p>
+                </div>
+                {/* service-single  End*/}
+            </div>
+            {/* service-area End  */}
         </div>
     )
 }
