@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import"./App.scss"
 import Features from "./components/Features";
 import Pricing from "./components/Pricing";
+import Download from "./components/Download";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       <Features/>
       <Pricing/>
+      <Download/>
     </div>
   );
 }
