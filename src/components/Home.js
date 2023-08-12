@@ -2,6 +2,7 @@ import  slider_left_img from "../assets/slider-left-img.png"
 import service_img1 from "../assets/service-img1.png"
 import service_img2 from "../assets/service-img2.png"
 import service_img3 from "../assets/service-img3.png"
+import abt_left_img from "../assets/abt-left-img.png"
 function Home(){
     return(
         <div className="Home">
@@ -61,6 +62,18 @@ function Home(){
             <div className="about-area">
                 <h2>About App</h2>
                 <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
+                {/* info-about */}
+                <div className="info-about">
+                    <img src={abt_left_img} alt="abt_left_img"/>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiuiosmod terttmpor incididunt 
+                    ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. doliuor in reprehenderit in voluptate velit esse dolore eu fugiat nulla pariatur. cdatat non proident
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tuiempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    </p>
+                </div>
+                {/* info-about End */}
             </div>
             {/* about-area End */}
         </div>
