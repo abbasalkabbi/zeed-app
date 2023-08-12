@@ -57,6 +57,12 @@ function Home(){
                 {/* service-single  End*/}
             </div>
             {/* service-area End  */}
+            {/* about-area */}
+            <div className="about-area">
+                <h2>About App</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
+            </div>
+            {/* about-area End */}
         </div>
     )
 }
