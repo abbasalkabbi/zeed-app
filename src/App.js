@@ -4,6 +4,7 @@ import"./App.scss"
 import Features from "./components/Features";
 import Pricing from "./components/Pricing";
 import Download from "./components/Download";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Features/>
       <Pricing/>
       <Download/>
+      <Contact/>
     </div>
   );
 }
