@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import Pricing from "./components/Pricing";
 import Download from "./components/Download";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Pricing/>
       <Download/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

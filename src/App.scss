@@ -682,3 +682,25 @@
   // form End
 }
 // Contact End
+// Footer
+.App .Footer{
+  width: 100%;
+  height: 80px ;
+  border: 1px solid #000;
+  background-color: #5a10fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p{
+    font-size: 14px;
+    font-family:'Poppins', sans-serif;
+    font-weight: normal;
+    color: #fff;
+    a{
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}
+// Footer End
