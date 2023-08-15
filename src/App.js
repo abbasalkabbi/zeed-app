@@ -26,6 +26,7 @@ export default function App() {
       <div ref={ref3}> <Pricing/></div> 
       <div ref={ref4}> <Download/></div> 
       <div ref={ref5}> <Contact/></div> 
+      <Footer/>
     </div>
   );
 }
