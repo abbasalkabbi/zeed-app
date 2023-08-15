@@ -709,3 +709,207 @@
   }
 }
 // Footer End
+// moblie
+@media screen and (max-width: 600px) {
+  // Home
+  .App .Home{
+    // slider-area
+    .slider-area{
+      flex-direction: column;
+      height: 500px;
+      // .slider-img
+      .slider-img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        img{
+          width: 80%;
+        }
+      }
+      // .slider-img End
+      // slider-inner
+    .slider-inner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2{
+        font-size: 30px;
+      }
+      h5{
+        font-size: 24px;
+      }
+    }
+    // slider-inner End
+  }
+  // slider-area End
+  // service-area 
+  .service-area {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    .service-single{
+    margin: 10px 0px 10px 0px;
+      // service-img
+    }
+  }
+  // service-area 
+  // service-area End
+  // about-area 
+  .about-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+      color:#666;
+      font-size: 15px;
+      font-family:'Poppins', sans-serif;
+      font-weight: 600;
+      text-align: center;
+    }
+    // info-about
+    .info-about{
+      padding: 0px;
+      flex-direction: column;
+      img{
+        width: 80%;
+        margin: 20px 0px 20px 0px;
+      }
+      p{
+        width: 100%;
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 20px;
+      }
+    }
+    // info-about End
+  }
+  // about-area End
+  }
+  // Home End
+//Features
+.Features{
+  height: fit-content;
+  // Features-info 
+  .Features-info {
+    width: 100%;
+    margin: 0px auto;
+    flex-direction: column;
+    // left space-evenly
+    .left{
+      width: 100%;
+      
+      .itam{
+        h3{
+          left: 0px;
+          text-align: end;
+        }
+        p{
+          text-align: start;
+          bottom: 1px;
+          text-align: end;
+        }
+        img{
+          right: 0px;
+          top:0px;
+        }
+      }
+    }
+    // left End
+    // center
+    .center{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    // center End
+    // right
+    .right{
+      width: 30%;
+      .itam{
+        h3{
+          left: 0px;
+          text-align: end;
+        }
+        p{
+          text-align: start;
+          bottom: 1px;
+          text-align: end;
+        }
+        img{
+          right: 0px;
+          top:0px;
+        }
+      }
+        
+    }
+    // right End
+    .left , .right{
+      margin: 20px 0px 20px 0px;
+    }
+  }
+  // Features-info End
+}
+// Features Enb
+// Pricing
+.Pricing{
+  height:fit-content;
+  border: #000 1px solid;
+  // price-area
+  .price-area{
+    // price-item
+    .price-item{
+    margin: 20px 0px 20px 0px;
+    }
+    // price-item
+  }
+  // price-area End
+}
+// Pricing End
+// Download
+.App .Download{
+  height: 100vh;
+  // links
+  .links{
+    flex-direction: column;
+    height: 80%;
+    
+  }
+  // links End
+}
+// Download End
+// Contact
+.Contact{
+  height: fit-content;
+  .content{
+    width: 100%;
+    flex-direction: column;
+  }
+  // info
+  .info{
+    margin-left: 30px;
+    samp{
+      font-size: 12px;
+    }
+  }
+  // info End
+  // form
+  form{
+    margin-left: 30px;
+    input ,textarea {
+      width: 300px;
+    }
+  }
+  // form End
+}
+// Contact End
+// Footer
+.App .Footer{
+  p{
+    font-size: 10px;
+  }
+}
+// Footer End
+}
+// moblie End 
