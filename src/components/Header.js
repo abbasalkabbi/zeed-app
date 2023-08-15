@@ -1,6 +1,6 @@
 
 
-function Header(){
+function Header(props){
     return(
         <div className="Header">
             {/* logo */}
@@ -15,50 +15,36 @@ function Header(){
             <div className="menu">
                 <ul>
                     {/* home */}
-                    <a className="home active"> 
-                        <li className="active">
+                    <a > 
+                        <li className={`${props.ishome?'active':''}`}>
                             Home
                         </li>
                     </a>
                     {/* Home End */}
                     {/* Features */}
                     <a>
-                        <li>
+                        <li className={`${props.isfeatures?'active':''}`}>
                             Features
                         </li>
                     </a>
                     {/* Features End */}
-                    {/* Screenshot */}
-                    <a>
-                        <li>
-                        Screenshot
-                        </li>
-                    </a>
-                    {/* Screenshot End */}
                     {/* Pricing */}
                     <a>
-                        <li>
+                        <li className={`${props.ispricing?'active':''}`}>
                         Pricing 
                         </li>
                     </a>
                     {/* Pricing End */}
-                    {/* Team */}
-                    <a>
-                        <li>
-                        Team 
-                        </li>
-                    </a>
-                    {/* Team End */}
                     {/* Download */}
                     <a>
-                        <li>
+                        <li className={`${props.isdownload?'active':''}`}>
                         Download 
                         </li>
                     </a>
                     {/* Download End */}
                     {/* Contact  */}
                     <a>
-                        <li>
+                        <li className={`${props.iscontact?'active':''}`}>
                         Contact  
                         </li>
                     </a>
