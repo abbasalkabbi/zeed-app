@@ -15,35 +15,35 @@ function Header(props){
             <div className="menu">
                 <ul>
                     {/* home */}
-                    <a > 
+                    <a href="#Home"> 
                         <li className={`${props.ishome?'active':''}`}>
                             Home
                         </li>
                     </a>
                     {/* Home End */}
                     {/* Features */}
-                    <a>
+                    <a href="#Features">
                         <li className={`${props.isfeatures?'active':''}`}>
                             Features
                         </li>
                     </a>
                     {/* Features End */}
                     {/* Pricing */}
-                    <a>
+                    <a href="#Pricing">
                         <li className={`${props.ispricing?'active':''}`}>
                         Pricing 
                         </li>
                     </a>
                     {/* Pricing End */}
                     {/* Download */}
-                    <a>
+                    <a href="#Download">
                         <li className={`${props.isdownload?'active':''}`}>
                         Download 
                         </li>
                     </a>
                     {/* Download End */}
                     {/* Contact  */}
-                    <a>
+                    <a href="#Contact"> 
                         <li className={`${props.iscontact?'active':''}`}>
                         Contact  
                         </li>

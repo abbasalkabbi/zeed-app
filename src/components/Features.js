@@ -7,7 +7,7 @@ import five from "../assets/icon/5.png"
 import sex from "../assets/icon/6.png"
 function Features(){
     return(
-        <div className="Features">
+        <div className="Features"  id="Features">
             <h2>Features</h2>
             <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
             {/* Features-info */}

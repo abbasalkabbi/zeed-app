@@ -5,7 +5,7 @@ import service_img3 from "../assets/service-img3.png"
 import abt_left_img from "../assets/abt-left-img.png"
 function Home(){
     return(
-        <div className="Home">
+        <div className="Home" id="Home">
             {/* slider-area */}
             <div className="slider-area">
                 {/* slider-img */}

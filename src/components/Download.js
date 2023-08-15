@@ -1,7 +1,7 @@
 function Download()
 {
     return(
-        <div className="Download">
+        <div className="Download" id="Download">
             <h2>Download</h2>
             <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
             <div className="links">

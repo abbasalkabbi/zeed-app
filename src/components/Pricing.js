@@ -1,6 +1,6 @@
 function Pricing(){
     return(
-        <div className="Pricing">
+        <div className="Pricing" id="Pricing">
             <h2>Pricing Plan</h2>
             <p>Nemo enim ipsam voluptatem quia voluptas sit</p>
             {/* price-area */}
