@@ -690,7 +690,6 @@
 .App .Footer{
   width: 100%;
   height: 80px ;
-  border: 1px solid #000;
   background-color: #5a10fb;
   display: flex;
   align-items: center;
@@ -887,7 +886,6 @@
 // Pricing
 .Pricing{
   height:fit-content;
-  border: #000 1px solid;
   // price-area
   .price-area{
     // price-item
@@ -946,7 +944,7 @@
 }
 // moblie End 
 // ipad
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) and (min-width:600px) {
   // Header 
   .App .Header{
     width: 100vw;
