@@ -32,9 +32,6 @@
       font-size: 48px;
       letter-spacing: -6px;
     }
-    button{
-      display: none;
-    }
   }
   // logo End
   // menu
@@ -948,3 +945,221 @@
 // Footer End
 }
 // moblie End 
+// ipad
+@media screen and (max-width: 850px) {
+  // Header 
+  .App .Header{
+    width: 100vw;
+  // logo
+  .logo{
+    width: 40%;
+  }
+  // logo End
+  // menu
+  .menu{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    ul{
+      width: 100%;
+        a{
+          font-size: 16px ;
+        }
+    }
+  }
+  // menu End
+  }
+  // Header 
+    // Home 
+  .App .Home{
+    width: 100vw;
+    // slider-area
+    .slider-area{
+      padding: 0px 10px 0px 10px;
+      // .slider-img
+      .slider-img {
+        justify-content: center;
+        img{
+          width: 80%;
+        }
+      }
+      // .slider-img End
+      // slider-inner
+      .slider-inner{
+        align-items: normal;
+        h2{
+          font-size: 40px;
+        }
+        h5{
+          margin: 10px 0px 10px 0px;
+          
+        }
+      }
+      // slider-inner End
+    }
+    // slider-area End
+    // service-area 
+    .service-area {
+      margin-top: 0px;
+      flex-direction: column;
+      align-items: center;
+      .service-single{
+        margin: 10px 0px 10px 0px;
+        width: 500px;
+        h2{
+          font-size: 46px;
+        }
+        p{
+          font-size: 20px;
+        }
+      }
+    }
+    // service-area End
+    // about-area 
+    .about-area {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // info-about
+      .info-about{
+        padding: 10px;
+        width: 100%;
+        p{
+          padding: 10px ;
+          width: 50%;
+          line-height:24px;
+        }
+      }
+      // info-about End
+    }
+    // about-area End
+  }
+  // Home  End 
+  //Features
+.Features{
+  height: fit-content;
+  // Features-info 
+  .Features-info {
+    width: 100%;
+    margin: 0px auto;
+    flex-direction: column;
+    align-items: center;
+    // left space-evenly
+    .left{
+      margin:20px -198px 16px 0px;
+      .itam{
+        h3{
+          left: 0px;
+          text-align: end;
+        }
+        p{
+          text-align: start;
+          bottom: 1px;
+          text-align: end;
+        }
+        img{
+          right: 0px;
+          top:0px;
+        }
+      }
+    }
+    // left End
+    // center
+    .center{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    // center End
+    // right
+    .right{
+      margin:10px 0px 10px -470px;
+      .itam{
+        h3{
+          left: 0px;
+          text-align: end;
+        }
+        p{
+          text-align: start;
+          bottom: 1px;
+          text-align: end;
+        }
+        img{
+          right: 0px;
+          top:0px;
+        }
+      }
+        
+    }
+    // right End
+  }
+  // Features-info End
+}
+// Features End
+// Pricing
+.Pricing{
+  height:fit-content;
+  // price-area
+  .price-area{
+    // price-item
+    .price-item{
+    margin: 20px 0px 20px 0px;
+    }
+    // price-item
+  }
+  // price-area End
+}
+// Pricing End
+// Download
+.App .Download{
+  height: 100vh;
+  padding: 50px;
+  // links
+  .links{
+    flex-direction: column;
+    height: 80%;
+    
+  }
+  // links End
+}
+// Download End
+// Contact
+.Contact{
+  height: 100vh;
+  .content{
+    width: 100%;
+    flex-direction: column;
+    align-items: center
+  }
+  // info
+  .info{
+    margin-left: 30px;
+    samp{
+      font-size: 20px;
+    }
+  }
+  // info End
+  // form
+  form{
+    margin-left: 30px;
+    input ,textarea {
+      width: 550px;
+    }
+  }
+  // form End
+}
+// Contact End
+// Footer
+.App .Footer{
+  p{
+    font-size: 10px;
+  }
+}
+// Footer End
+
+}
+//ipad
