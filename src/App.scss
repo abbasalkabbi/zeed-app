@@ -32,7 +32,9 @@
       font-size: 48px;
       letter-spacing: -6px;
     }
-    
+    button{
+      display: none;
+    }
   }
   // logo End
   // menu
@@ -711,6 +713,39 @@
 // Footer End
 // moblie
 @media screen and (max-width: 600px) {
+  
+// Header 
+.App .Header{
+  height: fit-content;
+  flex-direction: column;
+  // logo
+  .logo{
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    h1{
+      font-size: 30px;
+      margin: 10px 0px 10px 10px;
+    }
+  }
+  // logo End
+  // menu
+  .menu{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    ul{
+      width: 100%;
+      margin: 0px 0px 10px 0px;
+      
+        a{
+          font-size: 12px;
+        }
+    }
+  }
+  // menu
+}
+// Header  END 
   // Home
   .App .Home{
     // slider-area

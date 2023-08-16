@@ -1,4 +1,4 @@
-
+import Menu from "./Menu";
 
 function Header(props){
     return(
@@ -8,54 +8,12 @@ function Header(props){
                 <h1>
                 ZEED APP
                 </h1>
-                
             </div>
             {/* logo End */}
             {/* menu */}
-            <div className="menu">
-                <ul>
-                    {/* home */}
-                    <a href="#Home"> 
-                        <li className={`${props.ishome?'active':''}`}>
-                            Home
-                        </li>
-                    </a>
-                    {/* Home End */}
-                    {/* Features */}
-                    <a href="#Features">
-                        <li className={`${props.isfeatures?'active':''}`}>
-                            Features
-                        </li>
-                    </a>
-                    {/* Features End */}
-                    {/* Pricing */}
-                    <a href="#Pricing">
-                        <li className={`${props.ispricing?'active':''}`}>
-                        Pricing 
-                        </li>
-                    </a>
-                    {/* Pricing End */}
-                    {/* Download */}
-                    <a href="#Download">
-                        <li className={`${props.isdownload?'active':''}`}>
-                        Download 
-                        </li>
-                    </a>
-                    {/* Download End */}
-                    {/* Contact  */}
-                    <a href="#Contact"> 
-                        <li className={`${props.iscontact?'active':''}`}>
-                        Contact  
-                        </li>
-                    </a>
-                    {/* Contact  End */}
-                    
-                    
-                </ul>
-            </div>
+            <Menu ishome={props.ishome}  isfeatures={props.isfeatures}   ispricing={props.ispricing} isdownload={props.isdownload} iscontact={props.iscontact}/>
             {/* menu End */}
         </div>
-
     )
 }
 export default Header
